@@ -1,0 +1,14 @@
+﻿Build started 16/09/2016 21:50:27.
+     1>Project "D:\Documents\UNOESC\UNOESC 2016\Semestre II\grafica II\PGII-Exerc-cios\ListaEx01_Circulos\ListaEx01_Circulos\ListaEx01_Circulos.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\documents\unoesc\unoesc 2016\semestre ii\grafica ii\pgii-exerc-cios\listaex01_circulos\listaex01_circulos\main.cpp(44): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\UNOESC\UNOESC 2016\Semestre II\grafica II\PGII-Exerc-cios\ListaEx01_Circulos\Debug\ListaEx01_Circulos.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documents\UNOESC\UNOESC 2016\Semestre II\grafica II\PGII-Exerc-cios\ListaEx01_Circulos\Debug\ListaEx01_Circulos.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\UNOESC\UNOESC 2016\Semestre II\grafica II\PGII-Exerc-cios\ListaEx01_Circulos\Debug\ListaEx01_Circulos.lib" /MACHINE:X86 Debug\main.obj
+         ListaEx01_Circulos.vcxproj -> D:\Documents\UNOESC\UNOESC 2016\Semestre II\grafica II\PGII-Exerc-cios\ListaEx01_Circulos\Debug\ListaEx01_Circulos.exe
+     1>Done Building Project "D:\Documents\UNOESC\UNOESC 2016\Semestre II\grafica II\PGII-Exerc-cios\ListaEx01_Circulos\ListaEx01_Circulos\ListaEx01_Circulos.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.81

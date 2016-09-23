@@ -6,12 +6,17 @@ void display(void){
 
 	glClear(GL_COLOR_BUFFER_BIT); glColor3f(1.0f, 0.0f, 0.0f);
 	glViewport(0, 0, width / 2, height / 2);
-	glLoadIdentity(); gluLookAt(0.0, 0.0, -3.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
+	glLoadIdentity();
+	gluLookAt(0.0, 0.0, -3.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
 	glutWireTeapot(1);
 	glViewport(width / 2, 0, width / 2, height / 2);
-	glLoadIdentity(); gluLookAt(0.0, 0.0, 3.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0); glutWireTeapot(1);
+	glLoadIdentity(); 
+	gluLookAt(0.0, 0.0, 3.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0); 
+	glutWireTeapot(1);
 	glViewport(0, height / 2, width / 2, height / 2);
-	glLoadIdentity(); gluLookAt(0.0, 3.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0); glutWireTeapot(1);
+	glLoadIdentity(); 
+	gluLookAt(0.0, 3.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0);
+	glutWireTeapot(1);
 	glViewport(width / 2, height / 2, width / 2, height / 2);
 	glLoadIdentity(); gluLookAt(0.0, -3.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0);
 	glutWireTeapot(1);

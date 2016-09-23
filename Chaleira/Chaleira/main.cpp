@@ -103,7 +103,7 @@ void mouse(int button, int state, int x, int y){
 void desenha(){
 	glClearColor(0.0f, 0.0f, 0.1f, 0.0f);	//define cor de fundo
 	glClear(GL_COLOR_BUFFER_BIT);		//limpa tela
-	glutWireTeacup(50.0f);				//desenha bule
+	glutWireTeapot(50.0f);				//desenha bule
 	glutSwapBuffers();					//renderiza
 }
 
